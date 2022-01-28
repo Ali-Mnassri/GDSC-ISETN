@@ -1,0 +1,269 @@
+/*IMPORTING THE FONT "OPEN SANS" */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+/*GENERAL SYLING*/
+
+
+*{
+    font-family:"Open sans" ;
+    color:#4d4d4d;
+    margin:0;
+    padding:0;
+}
+body{
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+}
+.container-fluid{
+    padding:20px;
+}
+h2{
+    padding:4rem 1px 4rem 1px;
+    text-transform: uppercase;
+    font-size:2rem;
+    
+}
+
+/*THE STYLING OF THE HEADER*/
+
+header li{
+    padding-left:15px;
+    font-size:16px;
+}
+header nav{
+    margin-left:1rem;
+    margin-right:1rem;
+
+}
+header{
+    position:relative;
+    bottom:30px;
+    height:10vh;
+}
+/*THE STYLING OF THE SHOWCASE*/
+#showcase p{
+    padding:2.5rem 0px;
+    font-size:1.2rem;
+    font-family:"Open sans" ;
+}
+#showcase small{
+    font-size:smaller;
+}
+
+#showcase small{
+    padding:0;
+    margin:0;
+    padding-left:5px;
+    position: relative;
+    top:-1rem;
+
+}
+#showcase{
+    padding-top:5rem;
+    margin:0;
+    padding-right:0;
+    height:85vh;
+
+}
+#showcase h1{
+    font-size:3rem;
+}
+#showcase .box2{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+#showcase img{
+    padding-bottom:5rem;
+    width:500px;
+    position:relative;
+    right:5rem;
+    bottom:1rem;
+}
+
+/*THE STYLING OF THE ABOUT US SECTION*/
+#about{
+    padding-top:0;
+    margin-top:0rem;
+    display:flex;
+    justify-content: space-around;
+}
+#about .box2{
+    position:relative;
+    top:5rem;
+}
+#about p{
+    font-size:large;
+}
+#about img{
+    transform: rotate(-9deg);
+}
+#about h2{
+    padding-bottom:1rem;
+}
+/*THE STYLE OF THE COURSEL SLIDE*/
+#testimonialCarousel img{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+#testimonialCarousel {
+    min-height:350px;
+    padding:50px;
+    background-color:#4285fa;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel-item h3{
+    font-size:24px;
+    margin-top:20px;
+    color:white;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+.carousel-item p{
+    color:#4d4d4d;
+    font-size:small;
+}
+.carousel-item,.carousel-inner{
+    height:300px;
+    
+}
+.carousel-inner{
+max-width:800px;
+}
+
+/*THE MEET OUR TEAM STYLING*/
+.special{
+    max-width:400px;
+}
+#team img{
+    width:80%;  
+    border-radius: 10%;
+   }
+#team  .box{
+    border-radius: 10px;
+    margin-bottom:4rem;
+
+   }
+#team .box p,#team .box h3{
+       margin:0;
+   }
+#team .box h3{
+    padding:10px;
+   }
+/*THE STYLING OF THE DROW DOWN FAQ */
+.accordion-header{
+    padding:0;
+
+}
+
+#faq{
+    width:100%;
+}
+
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+footer .follow{
+    text-align:left;
+}
+/*RESPONSIVE STYLING*/
+@media screen and (max-width: 768px) {
+    header,#showcase{
+        height:auto;
+    }
+    #showcase .box2{
+        display:none;
+    }
+    #showcase{
+        text-align:center;
+        position:relative;
+        top:-5rem;
+        
+    }
+    #about{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+    #about .box2{
+        position:relative;
+        top:-5rem;
+
+        
+    }
+    #about img{
+        transform: none;
+        max-width:600px;
+        
+    }
+    .carousel-item{
+        padding-left: 20px;
+        padding-right:20px; 
+    }
+    #testimonialCarousel{
+        width:100%  ;
+        height:480px;
+    }
+    .carousel-inner,.carousel-item{
+        height:480px;
+    }
+    footer{
+        text-align:center;
+    }
+    /* footer .follow{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    } */
+  }
+  @media screen and (max-width: 580px) {
+    .carousel-inner,.carousel-item{
+        height:600px;
+    }
+    #testimonialCarousel{
+        width:100%;
+        height:600px;
+    }
+  }
