@@ -143,6 +143,7 @@ max-width:800px;
 /*THE MEET OUR TEAM STYLING*/
 .special{
     max-width:400px;
+    padding-bottom:1rem;
 }
 #team img{
     width:80%;  
@@ -208,6 +209,10 @@ footer .follow{
 }
 /*RESPONSIVE STYLING*/
 @media screen and (max-width: 768px) {
+    .special{
+        max-width:250px;
+        padding-bottom:1rem;
+    }
     header,#showcase{
         height:auto;
     }
